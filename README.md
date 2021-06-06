@@ -11,7 +11,7 @@ UM -> Settings -> Extensions -> Resend Activation Email
 
 1. Enable/disable the Resend Activation Email plugin shortcode.
 2. Select the Resend Activation Google reCAPTCHA score minimum value for accepting a request. 
-3. Select after number of hours until the next Resend Activation email request is allowed by the user.
+3. Select the number of hours until the next Resend Activation email request is allowed by the user.
 
 # Shortcode
 [my_um_resend_activation] 
