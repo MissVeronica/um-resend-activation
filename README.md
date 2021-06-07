@@ -24,5 +24,8 @@ Download the .zip file and install with WordPress plugin upload function
 
 A Unix time stamp in seconds, which can be used as an additional admin column in the WP User list with a WP plugin supporting this feature.
 
+# Page Caching
+Exclude the page with the shortcode from all caching
+
 # UM reCAPTCHA free extension
 https://wordpress.org/plugins/um-recaptcha/
