@@ -1,10 +1,10 @@
 # Ultimate Member - Resend Activation Email
-User initiated Resend of Account Activation Email from a page supported by Google reCAPTCHA version 3 and a shortcode for the page setup.
+User initiated Resend of Account Activation Email from a page supported by Google reCAPTCHA v3 and a shortcode for the page setup.
 
 * Logged in users are excluded from the shortcode by default.
 * User must enter their email address and password submitted at the account registration.
 
-The plugin relies on UM reCAPTCHA free extension plugin being installed for version 3 in getting the Google site and secret keys.
+The plugin relies on UM reCAPTCHA free extension plugin being installed for v3 in getting the Google v3 site and secret keys.
 
 # Plugin setup
 UM -> Settings -> Extensions -> Resend Activation Email
