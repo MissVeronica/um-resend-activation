@@ -1,7 +1,7 @@
 # Ultimate Member - Resend Activation Email at Login
 A user attempt to login without e-mail activation will give the user a new (resend) activation e-mail and a prompt to verify the account.
 
-Error message displayed in the login form above user name field: Your account is awaiting e-mail verification and we have sent you a new e-mail for verification.
+Error message displayed in the login form above user name field: Your account is awaiting e-mail verification and we have now sent you a new e-mail for verification.
 
 # Installation
 Add the source.php file from this posting https://github.com/MissVeronica/um-resend-activation/blob/main/source.php to your child-theme functions.php file
