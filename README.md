@@ -15,3 +15,9 @@ The new error message for 'awaiting_new_email_confirmation' is added to the um_c
 
 # Reference
 UM issue: https://github.com/ultimatemember/ultimatemember/issues/707
+
+UM Support forum:
+
+https://wordpress.org/support/topic/allow-users-to-resend-confirmation-email/
+
+https://wordpress.org/support/topic/how-to-resend-activation-mail/
