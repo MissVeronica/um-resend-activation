@@ -1,5 +1,5 @@
 # Ultimate Member - Resend Activation Email at Login
-A user attempt to login without e-mail activation will give the user a new e-mail and a prompt to verify the account.
+A user attempt to login without e-mail activation will give the user a new (resend) activation e-mail and a prompt to verify the account.
 
 Error message displayed in the login form above user name field: Your account is awaiting e-mail verification and we have sent you a new e-mail for verification.
 
