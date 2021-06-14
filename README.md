@@ -12,3 +12,6 @@ or use the Code Snippets plugin https://wordpress.org/plugins/code-snippets/
 um_submit_form_errors_hook_logincheck function is copied for the 'awaiting_email_confirmation' account status and a new error exit for this login error 'awaiting_new_email_confirmation' is created including the addition of UM()->user()->email_pending(); for resending the activation e-mail.
 
 The new error message for 'awaiting_new_email_confirmation' is added to the um_custom_error_message_handler function.
+
+# Reference
+UM issue: https://github.com/ultimatemember/ultimatemember/issues/707
