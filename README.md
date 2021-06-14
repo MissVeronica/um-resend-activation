@@ -13,7 +13,7 @@ um_submit_form_errors_hook_logincheck function is copied for the 'awaiting_email
 
 The new error message for 'awaiting_new_email_confirmation' is added to the um_custom_error_message_handler function.
 
-# Reference
+# References
 UM issue: https://github.com/ultimatemember/ultimatemember/issues/707
 
 UM Support forum:
