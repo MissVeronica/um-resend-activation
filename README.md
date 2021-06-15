@@ -9,7 +9,7 @@ Add the source.php file from this posting https://github.com/MissVeronica/um-res
 or use the Code Snippets plugin https://wordpress.org/plugins/code-snippets/
 
 # Solution
-This code snippet take control over login attempts with pending e-mail activitations before UM and resends the activation e-mail and creates a new error message to display for the users on the login page.
+This code snippet takes control over login attempts with pending e-mail activitations before UM and resends the activation e-mail and creates a new UM error message to display for the users on the login page.
 
 /includes/core/um-actions-form.php hook um_submit_form_errors_hook_logincheck
 
