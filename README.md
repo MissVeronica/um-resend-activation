@@ -9,9 +9,13 @@ Add the source.php file from this posting https://github.com/MissVeronica/um-res
 or use the Code Snippets plugin https://wordpress.org/plugins/code-snippets/
 
 # Solution
-um_submit_form_errors_hook_logincheck function is copied for the 'awaiting_email_confirmation' account status and a new error exit for this login error 'awaiting_new_email_confirmation' is created including the addition of UM()->user()->email_pending(); for resending the activation e-mail.
+/includes/core/um-actions-form.php
 
-The new error message for 'awaiting_new_email_confirmation' is added to the um_custom_error_message_handler function.
+The um_submit_form_errors_hook_logincheck function is copied for the 'awaiting_email_confirmation' account status and a new error exit for this login error 'awaiting_new_email_confirmation' is created including the addition of UM()->user()->email_pending(); for resending the activation e-mail.
+
+/includes/core/um-actions-misc.php
+
+The new error message for 'awaiting_new_email_confirmation' is added to the um_custom_error_message_handler filter.
 
 # References
 UM issue: https://github.com/ultimatemember/ultimatemember/issues/707
