@@ -9,9 +9,9 @@ Add the source.php file from this posting https://github.com/MissVeronica/um-res
 or use the Code Snippets plugin https://wordpress.org/plugins/code-snippets/
 
 # Solution
-/includes/core/um-actions-form.php
+/includes/core/um-actions-form.php hook um_submit_form_errors_hook_logincheck
 
-The um_submit_form_errors_hook_logincheck function is copied for the 'awaiting_email_confirmation' account status and a new error exit for this login error 'awaiting_new_email_confirmation' is created including the addition of UM()->user()->email_pending(); for resending the activation e-mail.
+The um_submit_form_errors_hook_logincheck function (in /include/core/um-actions-login.php) is copied for the 'awaiting_email_confirmation' account status and a new error exit for this login error 'awaiting_new_email_confirmation' is created including the addition of UM()->user()->email_pending(); for resending the activation e-mail.
 
 /includes/core/um-actions-misc.php
 
