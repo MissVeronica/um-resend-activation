@@ -15,7 +15,7 @@ function my_submit_form_errors_hook_logincheck( $args ) {
     }
 }
 
-add_filter( 'um_custom_error_message_handler', 'my_custom_error_message_handler', 10, 2 );
+add_filter( 'um_custom_error_message_handler', 'my_custom_error_message_handler', 999, 2 );
 
 function my_custom_error_message_handler( $err, $error ) {
 
