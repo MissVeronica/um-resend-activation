@@ -22,6 +22,6 @@ function my_custom_error_message_handler( $err, $error ) {
     if( $error == 'awaiting_new_email_confirmation' ) {
         return __( 'Your account is awaiting e-mail verification and we have now sent you a new e-mail for verification.', 'ultimate-member' );
     } else {
-        return false;
+        return $err;
     }
 }
